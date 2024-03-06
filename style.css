@@ -1,0 +1,83 @@
+body{box-sizing: border-box;
+    margin:0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: dimgray;
+}
+.znagi{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(7,1fr);
+    margin:0;
+    height: 100%;
+    width: 100%;
+    background-color:rgb(255, 255, 255);
+    margin-right: 20px;
+    border-top: solid;
+    border-top-color: grey;
+    background-color: rgb(75, 75, 75);
+    padding-left: 10px;
+    padding-top: 15px;
+
+}
+.kutuzovi{
+    background-color: rgb(121, 121, 121);
+    overflow: hidden;
+    width: 280px;
+    height: 460px;
+    border-radius: 20px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    margin-top: 50px;
+    border: solid;
+    padding:0;
+    border: 20px;
+    box-shadow: 20px 30px 40px rgb(61, 61, 61);
+}
+input{
+    width: 100%;
+    height:60px;
+    font-size: 40px;
+    outline: none;
+    background-color: rgb(110, 110, 110);
+    border: none;
+    color:rgb(61, 61, 61);
+    transition: 0.5s;
+    font-weight: bold;
+    font-family: sans-serif;
+    text-align-last:right;
+    letter-spacing: 2px;
+
+}
+button{
+    width: 53px;
+    height: 53px;
+    border: none;
+    border-radius: 10px;
+    background-color: hsl(0, 0%, 30%);
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow:2px 4px 5px gray;
+    transition: 0.5s;
+    
+}
+
+.ggf{
+    background-color: rgb(236, 154, 0);
+
+    
+}
+button:hover{
+    box-shadow: 3px 5px 6px rgb(97, 97, 97);
+    transition:0.3s;
+    width: 55px;
+    height: 55px;
+    opacity: 0.7;
+}
+.rata{
+
+    background-color: lightgrey;
+}
